@@ -39,7 +39,6 @@ let euro = 0.0025;
 while (isNaN(ingresarMonto)) {
      ingresarMonto = parseFloat(prompt("ingresa un numero por favor"))
      if (!isNaN(ingresarMonto)) {
-        cambio();
         break;
     }
 }
@@ -78,6 +77,8 @@ function cambio() {
     }
 
 }
+cambio()
+
 
 
 
